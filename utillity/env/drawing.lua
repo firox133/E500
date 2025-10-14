@@ -1,4 +1,4 @@
-(local coreGui = gethui()
+local coreGui = gethui()
 
 local camera = workspace.CurrentCamera
 local drawingUI = Instance.new("ScreenGui")
@@ -973,5 +973,6 @@ getgenv().cleardrawcache = function()
 		drawing:Remove()
 	end
 end
+
 
 Drawing = getgenv().Drawing
