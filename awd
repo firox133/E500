@@ -973,3 +973,5 @@ getgenv().cleardrawcache = function()
 		drawing:Remove()
 	end
 end
+
+Drawing = getgenv().Drawing
